@@ -1,0 +1,48 @@
+// styles.scss
+
+@import "./Sass/Utilities/variables";
+@import "./Sass/Utilities/themes";
+@import "./Sass/Components/accordion";
+@import "./Sass/Components/accrediation";
+@import "./Sass/Components/buttons";
+@import "./Sass/Components/card";
+@import "./Sass/Components/footer";
+@import "./Sass/Components/nav";
+@import "./Sass/Utilities/assets";
+@import "./Sass/Utilities/global";
+
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.survey-section {
+  // background: linear-gradient(115deg, #00244e 55%, transparent 55%), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/eda9f68c-88e6-42dc-9774-ee9ef0185c45.png);
+  background-image: url(https://client-data.knak.io/production/email_assets/5fd10b569d941/XgiyHPzIm00DsAQLY5ezXzu1KULyEv24dWmwMQdL.png);
+  background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #0A3370;
+    height: 500px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.hero-section {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+}
+
+
+  
+  
+  
+ 
+  
+  
+ 
+  
