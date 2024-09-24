@@ -98,7 +98,9 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-  
+   <!-- The script tag should live in the head of your page if at all possible -->
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+
 </head>
 
 
@@ -120,8 +122,8 @@
         </a>
         <div class=" justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="#" class="nav-link head-link mx-3" target="_blank">Text</a>
-            <a href="#" class="nav-link head-link mx-3 " target="_blank">Call</a>
+            <a href="sms:21216" class="nav-link head-link mx-3" target="_blank">Text</a>
+            <a href="Tel:8883870861" class="nav-link head-link mx-3 " target="_blank">Call</a>
 
           </div>
         </div>
@@ -159,15 +161,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>Welcome to SNHU</h2>
+        <h2 class="mobile-text-center">Welcome to SNHU</h2>
         <br>
-      <p>I want to personally congratulate you on your acceptance to Southern New Hampshire University! We recommend you bookmark this page and use it to connect to the resoureces you need to complete your enrollment.</p> <br>
-      <p>As your admisson counselor. I'm here if you need help at any time during your enrollment. Welcome to the SNHU family!</p>
+      <p class="mobile-text-center">I want to personally congratulate you on your acceptance to Southern New Hampshire University! We recommend you bookmark this page and use it to connect to the resoureces you need to complete your enrollment.</p> <br>
+      <p class="mobile-text-center">As your admisson counselor. I'm here if you need help at any time during your enrollment. Welcome to the SNHU family!</p>
       </div>
       <div class="col-md-6">
-       <!-- The script tag should live in the head of your page if at all possible -->
-<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-
+      
 <!-- Put this wherever you would like your player to appear -->
 <img
   style="width: 100%; margin: auto; display: block;"
@@ -194,69 +194,121 @@
 
     <!-- If {amp -give permission} -->
     <div class="row py-5">
-      <h3 class="mb-5 text-center">
-        Give your admission counselor permission to register your first course(s)
-      </h3>
-      <div class="col-md-6"><img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/8d5b32ad-a6da-436f-a540-8cbab91cb2a1.jpg" alt="Students looking down" class="w-100"></div>
-      <div class="col-md-6">
-        <p>We’ve hand-picked these course(s) for your first term. It’s important to review your course(s) and give your admission counselor permission to register you to save your spot in each class. (Registration occurs once tuition funding is in place.) <br> <br> You can also ask questions and request changes to your courses on the Review Your Courses page.</p>
+      <!-- Title at the top -->
+      <div class="col-12">
+        <h3 class="text-center py-2">
+          Give your admission counselor permission to register your first course(s)
+        </h3>
+      </div>
+    
+      <!-- Image on the left for larger screens, but on top for mobile -->
+      <div class="col-md-6 order-md-1 text-center py-3">
+        <img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/8d5b32ad-a6da-436f-a540-8cbab91cb2a1.jpg" 
+             alt="Students looking down" 
+             class="img-fluid w-80">
+      </div>
+    
+      <!-- Text and button on the right for larger screens, below image on mobile -->
+      <div class="col-md-6 order-md-2 py-3">
+        <p>
+          We’ve hand-picked these course(s) for your first term. It’s important to review your course(s) and give your admission counselor permission to register you to save your spot in each class. (Registration occurs once tuition funding is in place.)
+          <br><br> 
+          You can also ask questions and request changes to your courses on the Review Your Courses page.
+        </p>
         <br>
-        <button class="btn btn-primary">Review your Courses</button>
+        <div class="mobile-btn">
+          <a href="https://cloud.dream.snhu.edu/Course-Review-Consent?firstname=Student&academic_level__c=&OppID=&SFID=" class="btn btn-primary" target="_blank">Review your Courses</a>
+        </div>
       </div>
     </div>
+    
 
     <!-- If {amp- free App} -->
     <div class="row py-5">
-      <h3 class="text-center mb-5">
-        Make sure you’ve completed your FREE Application for Federal Student Aid (FAFSA®)
-      </h3>
-      
-      <div class="col-md-6">
-        <p>Even if you don’t end up choosing to attend Southern New Hampshire University, completing the Free Application for Federal Student Aid (FAFSA®) can help make your college education more affordable — wherever you go. 
+      <!-- Title at the top -->
+      <div class="col-12">
+        <h3 class="text-center">
+          Make sure you’ve completed your FREE Application for Federal Student Aid (FAFSA®)
+        </h3>
+      </div>
+    
+      <!-- Image on the right for larger screens, but on top for mobile -->
+      <div class="col-md-6 order-md-2 text-center py-2">
+        <img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/5841bdb1-7fe3-4d2b-b841-c3ecb3e4148b.jpg" 
+             alt="student with computer" 
+             class="img-fluid w-80">
+      </div>
+    
+      <!-- Text, list, and buttons on the left for larger screens, below image on mobile -->
+      <div class="col-md-6 order-md-1 py-2">
+        <p>
+          Even if you don’t end up choosing to attend Southern New Hampshire University, completing the Free Application for Federal Student Aid (FAFSA®) can help make your college education more affordable — wherever you go.
         </p>
-          <ul>
-          <li>When completing the FAFSA, enter SNHU’s School Code: 002580 </li>
-            <li>Not sure which FAFSA year to complete? Check our FAFSA Year Guide </li>
-              <li>Already completed your FAFSA? Call admission to let us know </li>
+        <ul>
+          <li>When completing the FAFSA, enter SNHU’s School Code: 002580</li>
+          <li>Not sure which FAFSA year to complete? Check our FAFSA Year Guide</li>
+          <li>Already completed your FAFSA? Call admission to let us know</li>
         </ul>
         <br>
-        <button class="btn btn-primary">Go to FAFSA</button>
-        <button class="btn btn-primary">Confirm FAFSA Complete</button>
+        <a href="https://studentaid.gov/h/apply-for-aid/fafsa" class="btn btn-primary" target="_blank">Go to FAFSA</a>
+        <a href="https://studentaid.gov/h/apply-for-aid/fafsa" class="btn btn-primary">Confirm FAFSA Complete</a>
       </div>
-      <div class="col-md-6"><img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/5841bdb1-7fe3-4d2b-b841-c3ecb3e4148b.jpg" alt="student with computer" class="w-100"></div>
     </div>
+    
 
      <!-- If {amp- finacial aid} -->
-    <div class="row py-5">
-      <h3 class="text-center mb-5">
-        View your financial aid offer</h3>
-      
-      <div class="col-md-6">
+     
+     <div class="row py-2">
+      <!-- Title at the top -->
+      <div class="col-12">
+        <h3 class="text-center">View your financial aid offer</h3>
+      </div>
+    
+      <!-- Image on the right for larger screens, but on top for mobile -->
+      <div class="col-md-6 order-md-2 text-center py-2">
+        <img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/aa21b814-a251-4eca-86ad-2311dc362be6.jpg" 
+             alt="student with computer" 
+             class="img-fluid w-80">
+      </div>
+    
+      <!-- Text and button on the left for larger screens, below image on mobile -->
+      <div class="col-md-6 order-md-1 py-2">
         <p>Your financial aid offer may include grants and loans based on the information you provided in your Free Application for Federal Student Aid (FAFSA).
           <br> <br>
           Before reviewing your financial aid offer, please visit the top tips for using your financial aid offer page. 
         </p>
-          
         <br>
-        <button class="btn btn-primary">View Finacial Aid Offer</button>
+        <div class="mobile-btn">
+          <a class="btn btn-primary" href="https://cloud.dream.snhu.edu/financial-aid-offer-gc" target="_blank">View Financial Aid Offer</a>
+        </div>
       </div>
-      <div class="col-md-6"><img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/aa21b814-a251-4eca-86ad-2311dc362be6.jpg" alt="student with computer" class="w-100"></div>
     </div>
-
+    
 
       <!-- If {amp- check in} -->
       <div class="row py-5">
-        <h3 class="text-center mb-5">
-          Schedule your check-in with student financial services</h3>
-        
-        <div class="col-md-6">
-          <p>An SNHU finance counselor will review your tuition funding and financial aid options, and help you create a plan that makes college more affordable.
-          </p>
-          <br>
-          <button class="btn btn-primary">Schedule Call</button>
+        <!-- Title at the top -->
+        <div class="col-12">
+          <h3 class="text-center mb-5">Schedule your check-in with student financial services</h3>
         </div>
-        <div class="col-md-6"><img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/dfa4f8f1-f5d6-4867-8cd4-d572bc077f7a.jpg" alt="student with mobile phone" class="w-100"></div>
-      </div>  
+      
+        <!-- Image on the right for larger screens, but on top for mobile -->
+        <div class="col-md-6 order-md-2 text-center">
+          <img src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/dfa4f8f1-f5d6-4867-8cd4-d572bc077f7a.jpg" 
+               alt="student with mobile phone" 
+               class="img-fluid w-80">
+        </div>
+      
+        <!-- Text and button on the left for larger screens, below image on mobile -->
+        <div class="col-md-6 order-md-1 py-2">
+          <p>An SNHU finance counselor will review your tuition funding and financial aid options, and help you create a plan that makes college more affordable.</p>
+          <br>
+          <div class="mobile-btn">
+            <a href="Tel:8883870861" class="btn btn-primary">Schedule Call</a>
+          </div>
+        </div>
+      </div>
+        
   </div>
 </section>
 
@@ -264,17 +316,17 @@
 <section class="bg-lightgray">
 <div class="container">
   <div class="row">
-    <div class="col-md-6 text-center d-flex justify-content-end align-items-center flex-column">
+    <div class="col-md-6 text-center d-flex justify-content-end align-items-center flex-column p-5">
       <img style="width: 100px;" class="mb-3" src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/c13fd330-f567-4940-9015-e38d4bf1caa0.png" alt="campus building icon">
       <h3 style="font-size: 18px;">Request Academic accomodations</h3>
       <p>Our Online Accessibility Center (OAC) is ready to support students with documented disabilities or diagnoses.</p>
-      <button class="btn btn-default">Request Academic Accomodations</button>
+      <a href="https://snhu-accommodate.symplicity.com/public_accommodation/" class="btn btn-default" target="_blank">Request Academic Accomodations</a>
     </div>
-    <div class="col-md-6 text-center d-flex justify-content-end align-items-center flex-column">
+    <div class="col-md-6 text-center d-flex justify-content-end align-items-center flex-column p-5">
       <img style="width: 100px; " class="mb-3" src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/0a7347c5-cfee-42bc-a676-832702a08590.png" alt="Youtube Icon">
       <h3 style="font-size: 18px;">Prep for success with SNHU pre-orientation videos!</h3>
       <p>An SNHU finance counselor will review your tuition funding and financial aid options, and help you create a plan that makes college more affordable.</p>
-      <button class="btn btn-default">Go to Pre-Orientation</button>
+      <a href="https://cloud.dream.snhu.edu/pre-orientation?program__c=&admission_counselor_name__c=&firstname=Student&academic_level__c=&OppID=&SFID=" class="btn btn-default" target="_blank">Go to Pre-Orientation</a>
     </div>
   </div>
 </div>
@@ -289,8 +341,8 @@
       <h2 class="text-center">The right school makes all the difference</h2></div>
   </div>
   <div class="row mb-5">
-    <div class="col-md-6"><img class="w-80" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/f2QS43T7Skm6jzIhF3Lhs6oUnyaSPKlCZXFpHVrg.png" alt=""></div>
-    <div class="col-md-6"> <h3>College Designed for busy people</h3> <br>
+    <div class="col-md-6 mobile-align-img"><img class="w-80" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/f2QS43T7Skm6jzIhF3Lhs6oUnyaSPKlCZXFpHVrg.png" alt=""></div>
+    <div class="col-md-6"> <h3 class="mobile-text-center py-2">College Designed for busy people</h3> <br>
     <p>Choose from 200+ career-focused degree programs</p>
     <hr>
     <p>Complete weekly assignments on your schedule with no fixed class times</p>
@@ -305,21 +357,29 @@
   </div>
 
   <div class="row mb-5">
-    <div class="col-md-5"> <h3>College Designed for busy people</h3> <br>
-    <p>Receive financial guidance from our student financial services team</p>
-    <hr>
-    <p>Get personal support throughout your studies from your academic advisor</p>
-    <hr>
-    <p>Connect with peers, share interests and join clubs in our private online community</p>
-    <hr>
-    <p>Plan for your future with the help of our career services team</p>
+    <div class="col-12 order-2 order-md-1">
+      <h3>Personal support you can count on</h3>
+      <br>
     </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-6"><img class="w-80" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/o0rF4o7XEg1ZjNyhr31g9A3xQME0Z9PiDpEfDgxC.png" alt="man smiling"></div>
+  
+    <div class="col-md-6 order-3 order-md-1">
+      <p>Receive financial guidance from our student financial services team</p>
+      <hr>
+      <p>Get personal support throughout your studies from your academic advisor</p>
+      <hr>
+      <p>Connect with peers, share interests and join clubs in our private online community</p>
+      <hr>
+      <p>Plan for your future with the help of our career services team</p>
+    </div>
+  
+    <div class="col-md-6 order-1 order-md-2 mobile-align-img text-center">
+      <img class="img-fluid w-80 float-md-right" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/o0rF4o7XEg1ZjNyhr31g9A3xQME0Z9PiDpEfDgxC.png" alt="man smiling">
+    </div>
   </div>
+  
 
   <div class="row mb-5">
-    <div class="col-md-6"><img class="w-80" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/r86b9MsECAOHSDxGdNZa1tq4P18hKo7VCJ13m9M3.png" alt=""></div>
+    <div class="col-md-6 mobile-align-img"><img class="w-80" src="https://client-data.knak.io/production/email_assets/5fd10b569d941/r86b9MsECAOHSDxGdNZa1tq4P18hKo7VCJ13m9M3.png" alt=""></div>
     <div class="col-md-6"> <h3>Some of the lowest online tuition in the nation
     </h3> <br>
     <p>$330 per undergraduate credit hour, $990 per 3-credit course; $637 per graduate credit hour, $1,911 per 3-credit course</p>

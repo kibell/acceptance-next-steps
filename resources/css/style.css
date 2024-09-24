@@ -239,8 +239,32 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-  section {
-    padding: 2.5rem 0 2.5rem 0;
+  .mobile-text-center {
+    text-align: center;
+  }
+  .mobile-align-img {
+    display: flex;
+    justify-content: center;
+    float: none;
+  }
+  .mobile-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-col-rev {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .survey-section {
+    background-image: none !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #0A3370;
+    height: 500px;
+  }
+  .w-80 {
+    width: 100%;
   }
 }
 /* Font size */
@@ -399,8 +423,32 @@ a {
 }
 
 @media only screen and (max-width: 576px) {
-  section {
-    padding: 2.5rem 0 2.5rem 0;
+  .mobile-text-center {
+    text-align: center;
+  }
+  .mobile-align-img {
+    display: flex;
+    justify-content: center;
+    float: none;
+  }
+  .mobile-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-col-rev {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .survey-section {
+    background-image: none !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #0A3370;
+    height: 500px;
+  }
+  .w-80 {
+    width: 100%;
   }
 }
 body {
@@ -422,7 +470,10 @@ body {
 }
 
 .hero-section {
-  height: 25rem;
   display: flex;
   align-items: center;
+}
+
+.float-right {
+  float: right;
 }/*# sourceMappingURL=style.css.map */
