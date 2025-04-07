@@ -27,8 +27,8 @@ body {
     height: 500px;
 }
 
-.w-80 {
-  width: 80%;
+.w-80, .vidyard-player-container {
+  width: 80% !important;
 }
 
 .hero-section {
@@ -40,9 +40,41 @@ body {
   float: right;
 }
   
+section {
+  padding: 30px;
+}
   
   
- 
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; // Stack items vertically
+    text-align: center; // Center-align text
+    padding: 20px; // Add padding for better spacing
+  }
+
+  .survey-section {
+    height: auto; // Allow the section to adjust height dynamically
+    background-position: center; // Center the background image
+    padding: 20px; // Add padding for better spacing
+  }
+
+  .float-right {
+    float: none; // Disable float for better layout on small screens
+    text-align: center; // Center-align content
+  }
+
+  .w-50, .w-80, .vidyard-player-container {
+    width: 100% !important; // Make elements full-width
+  }
+
+  .rev-col {
+    flex-direction: column-reverse; // Stack items vertically
+  }
+
+  h3 {
+    text-align: center;
+  }
+}
   
   
  
