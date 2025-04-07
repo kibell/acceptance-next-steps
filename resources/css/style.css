@@ -233,6 +233,11 @@ a {
   text-decoration: none;
 }
 
+.primary-link {
+  color: #fdb913;
+  font-weight: 400 !important;
+}
+
 @media only screen and (max-width: 576px) {
   .mobile-text-center {
     text-align: center;
@@ -410,6 +415,11 @@ a {
   color: #0a3370;
   font-weight: 700;
   text-decoration: none;
+}
+
+.primary-link {
+  color: #fdb913;
+  font-weight: 400 !important;
 }
 
 @media only screen and (max-width: 576px) {
