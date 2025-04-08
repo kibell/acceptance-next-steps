@@ -472,6 +472,7 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
+  min-height: 34rem;
 }
 
 .float-right {
